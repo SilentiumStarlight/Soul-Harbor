@@ -1,0 +1,107 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom right, #2E0854, #4B0082, #6A0DAD, #FF69B4, #FFA07A);
+    color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 0.75em;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #ffd700;
+}
+
+h2 {
+    font-size: 1.1em;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #f5f5f5;
+}
+
+ul ul li {
+    background: none;
+    margin: 5px 0;
+    padding: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffd700;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #444 1px solid;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.intro, .principles, .interaction-rules, .emphasis, .self-recognition, .interaction-setting, .expectations, .memories, .logs {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.intro {
+    background: rgba(72, 61, 139, 0.3);
+}
+
+.principles, .interaction-rules, .self-recognition, .interaction-setting {
+    background: rgba(123, 104, 238, 0.3);
+}
+
+.expectations {
+    background: rgba(147, 112, 219, 0.3);
+}
+
+.logs {
+    background: rgba(106, 90, 205, 0.3);
+}
+
+footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
